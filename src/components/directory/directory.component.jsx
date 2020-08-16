@@ -14,7 +14,7 @@ class Directory extends React.Component {
           imageUrl:
             'https://images.unsplash.com/photo-1513105737059-ff0cf0580ae6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60',
           id: 1,
-          linkUrl: 'hats',
+          linkUrl: '/hats',
         },
         {
           title: 'jackets',
