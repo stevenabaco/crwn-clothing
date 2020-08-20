@@ -6,7 +6,7 @@ import CustomButton from '../custom-button/custom-button.components';
 import { signInWithGoogle } from '../../firebase/firebase.utils.js';
 
 import './sign-in.styles.scss';
-import { sign } from 'crypto';
+
 
 class SignIn extends React.Component {
   constructor(props) {
