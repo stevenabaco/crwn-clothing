@@ -17,7 +17,7 @@
   z-index: 5;
 }
 
-.cart-items {
+.cart-dropdown .cart-items {
   height: 240px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +29,7 @@
   overflow: scroll;
 }
 
-button {
+.cart-dropdown button {
   margin-top: auto;
 }
 /*# sourceMappingURL=cart-dropdown.styles.css.map */
