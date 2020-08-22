@@ -1,12 +1,4 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+const myArray = [1,2,3,4,5,6,7,8]
 
-const firestore = firebase.firestore();
+console.log(myArray.map(e => e + 1))
 
-firestore.collection('users')
-  .doc('5dO9lftbcKOrtMuCaukp')
-  .collection('cartItems')
-  .doc('MVEcPX6M6TEeSrsbTdKu')
-
-firestore.doc('/users/5dO9lftbcKOrtMuCaukp/cartItems/MVEcPX6M6TEeSrsbTdKu')
-firestore.collection('/users/5dO9lftbcKOrtMuCaukp/cartItems')
